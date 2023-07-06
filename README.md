@@ -1,4 +1,10 @@
 # Loja Pet
+#### Link para testar o projeto: https://loja-pet.vercel.app/
+
+Desenvolvido por Edna Ferreira Leite.
+
+Email para contato: contato.ednafleite@gmail.com
+
 Projeto loja pet v1, desenvolvi esse projeto para praticar meus conhecimentos em HTML,CSS e Javascript, o projeto é responsivo e possui
 flexbox, variáveis css, clamp() nos font-size entre outras coisas.
 
