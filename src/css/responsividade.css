@@ -1,0 +1,105 @@
+@media (max-width: 1220px) {
+    .informacoes-iniciais {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 900px) {
+    nav {
+        /* top: 10px;
+        right: 10px; */
+        top: 7px;
+        right: 8px;
+    }
+
+    .btn-abrir-carrinho {
+        gap: 0.6rem;
+        padding: 0.7rem;
+    }
+}
+
+@media (max-width: 770px) {
+    .div-externa-vantagens {
+        flex-direction: column;
+    }
+
+    .banner12x, .textos-vantagens{
+        width: 100%;
+    }
+
+    .textos-vantagens{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div-externa-produtos {
+        gap: 2rem;
+        margin: 2.5rem 1rem 0;
+    }
+}
+
+@media (max-width:575px) {
+    .informacoes-iniciais {
+        padding: 1rem 0.6rem;
+    }
+
+    .alinhamento-linha {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .beneficios-site {
+        padding: 0.5rem 0;
+    }
+
+    .beneficios-site:nth-child(1) {
+        border-right: 0;
+        border-bottom: 3px solid #D9D9D9;
+    }
+
+    .beneficios-site:nth-child(3) {
+        border-left: 0;
+        border-top: 3px solid #D9D9D9;
+    }
+
+    .banner-frete {
+        height: 48vw;
+    }
+
+    .btn-abrir-carrinho {
+        gap: 0;
+        padding: 1rem;
+        border-radius: 50%;
+    }
+
+    .btn-abrir-carrinho span {
+        display: none;
+    }
+
+    .div-ilustracao-acessorios{
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 340px) {
+    .main-carrinho {
+        padding: 0.5rem;
+    }
+
+    .identificacao-produto {
+        gap: 0.5rem;
+        font-size: 15px;
+    }
+
+    .identificacao-produto .img-produto {
+        width: 5.4rem;
+        height: 5.4rem;
+    }
+
+    .div-ilustracao-acessorios{
+        flex-direction: column;
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+}

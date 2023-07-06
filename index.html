@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./src/css/geral.css">
+  <link rel="stylesheet" href="./src/css/carrinho.css">
+  <link rel="stylesheet" href="./src/css/informacoes-iniciais.css">
+  <link rel="stylesheet" href="./src/css/produtos.css">
+  <link rel="stylesheet" href="./src/css/vantagens.css">
+  <link rel="stylesheet" href="./src/css/footer.css">
+  <link rel="stylesheet" href="./src/css/responsividade.css">
+
+  <link rel="shortcut icon" href="/assets/icons/pata.svg" type="image/svg">
+
+  <script src="./src/js/loja.js" async></script>
+
+  <title>Produtos Pet | Loja</title>
+</head>
+
+<body>
+  <nav>
+    <div class="div-externa-btn-carrinho">
+      <button onclick="abrirMenu()" class="btn-abrir-carrinho">
+        <img src="./assets/icons/cart.svg" style="width: 1.5rem;">
+        <span class="texto-abrir-carrinho">Abrir Carrinho</span>
+      </button>
+    </div>
+
+    <section class="carrinho-lateral sidebar">
+
+      <div class="header-carrinho">
+        <div onclick="abrirMenu()">
+          <img src="/assets/icons/x-circle.svg" alt="fechar carrinho" class="icone-fechar-carrinho">
+        </div>
+        <span class="titulo-carrinho">Carrinho</span>
+      </div>
+      
+      <div class="main-carrinho">
+        <div class="itens-carrinho"> </div>
+      </div>
+
+      <div class="footer-carrinho">
+        <div class="total-container">
+          <strong>Total</strong>
+          <span>R$0,00</span>
+        </div>
+        <button type="button" class="btn-finalizar-compra">Finalizar Compra</button>
+      </div>
+
+    </section>
+  </nav>
+
+  <!-- <section class="overlay"></section> -->
+
+  <main>
+    <section>
+      <div class="banner-frete"></div>
+
+      <div class="informacoes-iniciais alinhamento-linha">
+        <div class="alinhamento-coluna beneficios-site">
+          <img src="./assets/icons/credit-card.svg">
+          <p class="beneficios-titulo">PAGAMENTO INSTANTÂNEO</p>
+          <p class="beneficios-descricao">PAGAMENTO APROVADO NA HORA</p>
+        </div>
+        <div class="alinhamento-coluna beneficios-site">
+          <img src="./assets/icons/arrows.svg" alt="">
+          <p class="beneficios-titulo">ENVIO E DEVOLUÇÃO</p>
+          <p class="beneficios-descricao">ACEITAMOS DEVOLUÇÃO EM ATÉ 30 DIAS</p>
+        </div>
+        <div class="alinhamento-coluna beneficios-site">
+          <img src="./assets/icons/truck.svg" alt="">
+          <p class="beneficios-titulo">FRETE GRÁTIS</p>
+          <p class="beneficios-descricao">EM COMPRAS ACIMA DE R$ 270,00</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="produtos-mais-vendidos">
+      <p class="titulo-mais-vendidos">Produtos mais vendidos</p>
+      <p class="subtitulo-mais-vendidos">Os melhores produtos para seus aumigos</p>
+
+      <div class="div-externa-produtos">
+
+        <div class="produto-pet">
+          <div class="imagem-produto">
+            <img src="./assets/images/camapet.png" alt="cama masculina para pet" class="img-produto">
+          </div>
+          <div class="descricao-produtos">
+            <p class="nome-produto">Cama masculina</p>
+            <p class="valor-produto">R$ 229,90</p>
+            <button class="btn-add-carrinho">
+              Adicionar ao carrinho
+            </button>
+          </div>
+        </div>
+
+        <div class="produto-pet">
+          <div class="imagem-produto">
+            <img src="./assets/images/casinha.png" alt="casinha para pet" class="img-produto">
+          </div>
+          <div class="descricao-produtos">
+            <p class="nome-produto">Casinha para pet</p>
+            <p class="valor-produto">R$ 349,99</p>
+            <button class="btn-add-carrinho">
+              Adicionar ao carrinho
+            </button>
+          </div>
+        </div>
+
+        <div class="produto-pet">
+          <div class="imagem-produto">
+            <img src="./assets/images/pote.jpg" alt="pote para guardar ração" class="img-produto">
+          </div>
+          <div class="descricao-produtos">
+            <p class="nome-produto">Pote para ração</p>
+            <p class="valor-produto">R$ 12,30</p>
+            <button class="btn-add-carrinho">
+              Adicionar ao carrinho
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="div-externa-vantagens">
+      <img src="./assets/images/banner12x.png" alt="" class="banner12x">
+      
+      <section class="textos-vantagens">
+        <div class="titulo-vantagens">
+          <div class="alinhamento-pata ">
+            <img src="/assets/icons/pata.svg" alt="ícone pata">
+            <span>
+              <p>Vantagens</p>
+            </span>
+            <img src="/assets/icons/pata.svg" alt="ícone pata">
+          </div>
+          <hr class="linha-vertical">
+        </div>
+        <div class="vantagens">
+          <div class="vantagens-com-icons">
+            <div class="icon-osso"></div>
+            <p>Compra segura</p>
+          </div>
+          <div class="vantagens-com-icons">
+            <div class="icon-osso"></div>
+            <p>Produtos de qualidade</p>
+          </div>
+          <div class="vantagens-com-icons">
+            <div class="icon-osso"></div>
+            <p>Satisfação garantida ou seu dinheiro de volta</p>
+          </div>
+          <div class="vantagens-com-icons">
+            <div class="icon-osso"></div>
+            <p>Envio rápido</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+    <section class="section-acessorios">
+      <div class="div-ilustracao-acessorios">
+        <img src="/assets/icons/icon-dog.svg" alt="ilustração" style="width: 10rem;">
+        <span class="titulo-acessorios">Acessórios</span>
+      </div>
+      
+      <div class="div-externa-produtos">
+        
+        <div class="produto-pet">
+          <div class="imagem-produto">
+            <img src="./assets/images/pelucia.png" alt="pelúcia para pet" class="img-produto">
+          </div>
+          <div class="descricao-produtos">
+            <p class="nome-produto">Pelúcia</p>
+            <p class="valor-produto">R$ 52,30</p>
+            <button class="btn-add-carrinho">
+              Adicionar ao carrinho
+            </button>
+          </div>
+        </div>
+
+        <div class="produto-pet">
+          <div class="imagem-produto">
+            <img src="./assets/images/coleira-gatos.png" alt="Coleira unissex para gatos" class="img-produto">
+          </div>
+          <div class="descricao-produtos">
+            <p class="nome-produto">Coleira para gatos</p>
+            <p class="valor-produto">R$ 19,90</p>
+            <button class="btn-add-carrinho">
+              Adicionar ao carrinho
+            </button>
+          </div>
+        </div>
+
+        <div class="produto-pet">
+          <div class="imagem-produto">
+            <img src="./assets/images/arranhador.png" alt="arranhador para gato" class="img-produto">
+          </div>
+          <div class="descricao-produtos">
+            <p class="nome-produto">Arranhador</p>
+            <p class="valor-produto">R$ 80,00</p>
+            <button class="btn-add-carrinho">
+              Adicionar ao carrinho
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    
+  </main>
+
+  <footer class="footer-pagina">
+    <p>Desenvolvido com 🤍 por Edna Ferreira</p>
+    <p>Arte dos banners por https://www.behance.net/eduardopereira108</p>
+  </footer>
+
+</body>
+</html>

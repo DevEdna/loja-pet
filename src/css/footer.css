@@ -1,0 +1,15 @@
+.footer-pagina{
+    background: #06279D;
+    width: 100%;
+    padding: 2.4rem 0.7rem;
+    margin-top: 5rem;
+
+    color: #FFF;
+    font-size: clamp(0.82rem, 2vw, 1.1rem);
+    font-family: 'Source Sans 3', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.5rem;
+    /* letter-spacing: 0.945px; */
+    text-align: center;
+}

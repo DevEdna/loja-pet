@@ -1,0 +1,111 @@
+:root{
+    --dourado: #AF7F22;
+    --branco-puro: #fff;
+    --cinza: #484747;
+    --preto-puro: #000;
+}
+
+.produtos-mais-vendidos{
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.titulo-mais-vendidos, .titulo-acessorios{
+    color: var(--dourado);
+    font-size: clamp(1.5rem, 5vw, 2.25rem);
+    /* font-size: 36px; */
+    line-height: 34px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2.03px;
+}
+
+.titulo-mais-vendidos{
+    text-align: center;
+}
+
+.subtitulo-mais-vendidos{
+    text-align: center;
+    color: var(--cinza);
+    font-size: clamp(0.9rem, 3vw, 1.13rem);
+    /* font-size: 18px; */
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.015px;
+}
+
+.div-ilustracao-acessorios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.div-externa-produtos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2.5rem;
+}
+
+.produto-pet{
+    height: 17rem;
+    width: 12rem;
+    border-radius: 12px;
+    background: var(--branco-puro);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25), 0px 1px 10px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.imagem-produto{
+    height: 50%;
+}
+
+.img-produto{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.descricao-produtos{
+    height: 50%;
+    padding: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nome-produto{
+    color: var(--preto-puro);
+    font-size: 19px;
+    font-family: 'Source Sans 3', sans-serif;
+    margin-bottom: 4px;
+}
+
+.valor-produto{
+    color: var(--preto-puro);
+    font-size: 17px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.33px;
+    margin-bottom: 10px;
+}
+
+.btn-add-carrinho{
+    border-radius: 12px;
+    border: 3px solid var(--dourado);
+    background: transparent;
+    padding: 8px;
+    cursor: pointer;
+
+    color: var(--dourado);
+    font-size: 14px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.22px;
+}

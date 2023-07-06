@@ -1,0 +1,75 @@
+:root{
+    --distancia1: 0.8rem;
+    --branco-puro: #fff;
+    --cinza-claro: #D9D9D9;
+    --cinza-medio: #7a7878bd;
+    --cinza-escuro: #242323;
+}
+
+.banner-frete{
+    width: 100%;
+    height: 36vw;
+    background-image: url(/assets/images/banner-frete-1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.informacoes-iniciais{
+    position: relative;
+    max-width: 75%;
+    height: auto;
+    padding: 1rem;
+    border-radius: 12px;
+    background: var(--branco-puro);
+    box-shadow: 0px 2px 17px 0px rgba(0, 0, 0, 0.25);
+    margin: -3.5% auto;
+    margin-bottom: 4rem;
+}
+
+.alinhamento-linha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: var(--distancia1);
+}
+
+.beneficios-site{
+    text-align: center;
+    width: 19rem;
+    max-width: 100%;
+    padding: 0 0.5rem;
+}
+
+.beneficios-site:nth-child(1){
+    border-right: 3px solid var(--cinza-claro);
+}
+
+.beneficios-site:nth-child(3){
+    border-left: 3px solid var(--cinza-claro);
+}
+
+.beneficios-site img{
+    margin-bottom: 0.5rem;
+}
+
+.beneficios-titulo{
+    color: var(--cinza-escuro);
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
+    /* font-size: 17px; */
+    font-family: 'Amiko', sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.315px;
+    line-height: 22px;
+}
+
+.beneficios-descricao{
+    color: var(--cinza-medio);
+    font-size: clamp(0.7rem, 1.5vw, 0.8rem);
+    /* font-size: 13px; */
+    font-family: 'Amiko', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.56px;
+    line-height: 17px;
+}
+

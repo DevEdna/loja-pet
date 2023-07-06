@@ -1,0 +1,74 @@
+:root{
+    --amarelo: #FFD230;
+    --preto-puro: #000;
+}
+
+.div-externa-vantagens{
+    width: 100%;
+    display: flex;
+    margin: 4rem 0 2rem 0;
+}
+
+.banner12x{
+    width: 70%;
+}
+
+.textos-vantagens{
+    width: 30%;
+    padding: 2rem;
+    background: var(--amarelo);
+}
+
+.titulo-vantagens{
+    color: var(--preto-puro);
+    font-size: clamp(1.5rem, 3vw, 2.4rem);
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 3rem;
+}
+
+.alinhamento-pata{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.alinhamento-pata img{
+    width: 1.5rem;
+}
+
+.linha-vertical{
+    margin: 0.4rem auto;
+    width: 5rem;
+    border: 1px solid var(--preto-puro);
+    border-radius: 5px;
+}
+
+.vantagens{
+    color: var(--preto-puro);
+    /* font-size: 18px; */
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    font-family: 'Taviraj', serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.36px;
+}
+
+.vantagens-com-icons{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.icon-osso{
+    min-width: 1.6rem;
+    height: 2rem;
+    background-image: url(/assets/icons/osso.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
